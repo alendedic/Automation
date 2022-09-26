@@ -11,8 +11,8 @@ public class FunctionSolver {
             System.out.println("f(x)= " + (2 * x));
             System.out.println("g(x)= " + Math.pow(x,2));
         } else {
-            System.out.println("f(x)=" + 0);
-            System.out.println("g(x)=" + 0);
+            System.out.println("f(x)=  " + 0);
+            System.out.println("g(x)=  " + 0);
         }
     }
 }

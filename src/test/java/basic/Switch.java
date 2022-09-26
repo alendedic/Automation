@@ -44,27 +44,14 @@ public class Switch {
         System.out.println("Enter your grade");
         Scanner scanner = new Scanner(System.in);
         String grade = scanner.next();
-        String message;
-        switch (grade) {
-            case "A":
-                message = "Bravo" ;
-                break;
-            case "B":
-                message = "Not bad";
-                break;
-            case "C":
-                message = "Not great not terrible";
-                break;
-            case "D":
-                message = "You can do better";
-                break;
-            case "F":
-                message = "Fail";
-                break;
-            default:
-                message = "Invalid grade";
-
-        }
-        System.out.println(" Your message is" + message);
+        String message = switch (grade) {
+            case "A" -> "Bravo";
+            case "B" -> "Not bad";
+            case "C" -> "Not great not terrible";
+            case "D" -> "You can do better";
+            case "F" -> "Fail";
+            default -> "invalid grade";
+        };
+        System.out.println(" Your message is " + message);
     }
     }
