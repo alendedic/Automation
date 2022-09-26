@@ -25,7 +25,7 @@ public class Arrayss {
             for(lt : lottoTicket)
             sout (lt);
             3. sout(Arrays.toString(array);
-
+            jedan jedan
      */
     public static void main(String[] args) {
         int [] lottoTicket = new int [6];
