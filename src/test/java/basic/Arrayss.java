@@ -25,6 +25,7 @@ public class Arrayss {
             for(lt : lottoTicket)
             sout (lt);
             3. sout(Arrays.toString(array);
+            test test
 
      */
     public static void main(String[] args) {
