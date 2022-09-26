@@ -6,6 +6,8 @@ public class PrintStars {
     public static void main(String[] args) {
         System.out.println("Insert number:");
         Scanner scanner = new Scanner(System.in);
+        String number = scanner.next();
+        String message;
         int number = scanner.nextInt();
         if (number == 1){
             System.out.println("*");
