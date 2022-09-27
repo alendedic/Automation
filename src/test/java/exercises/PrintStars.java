@@ -1,8 +1,8 @@
-package exercises;
+/*package exercises;
 
 import java.util.Scanner;
 
-public class PrintStars {
+/* public class PrintStars {
     public static void main(String[] args) {
         System.out.println("Insert number:");
         Scanner scanner = new Scanner(System.in);
@@ -26,3 +26,4 @@ public class PrintStars {
         }
     }
 }
+*/
