@@ -1,5 +1,4 @@
 package basic;
-
 public class Method {
     public static void main(String[] args) {
         printName("Alen");
@@ -14,7 +13,6 @@ public class Method {
 
         Method method = new Method();
         method.greetMe();
-
     }
     public static void printName(String n) {
         System.out.println(n);
