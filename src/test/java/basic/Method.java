@@ -3,10 +3,15 @@ package basic;
 public class Method {
     public static void main(String[] args) {
         printName("Alen");
+
         String name = printName1("Alen");
+
         System.out.println(name + " je moje ime");
+
         calculate(6,3);
+
         calculate(10,5,2);
+
         Method method = new Method();
         method.greetMe();
 
