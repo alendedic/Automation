@@ -1,29 +1,19 @@
-/*package exercises;
-
+package exercises;
 import java.util.Scanner;
-
-/* public class PrintStars {
+public class PrintStars {
     public static void main(String[] args) {
-        System.out.println("Insert number:");
+        System.out.println("Insert a number:");
         Scanner scanner = new Scanner(System.in);
-        String number = scanner.next();
-        String message;
         int number = scanner.nextInt();
-        if (number == 1){
-            System.out.println("*");
-        } else if (number == 2) {
-            System.out.println("**");
-        } else if (number == 3) {
-            System.out.println("***");
-        } else if (number == 4) {
-            System.out.println("****");
-        } else if (number == 5) {
-            System.out.println("*****");
-        } else if (number == 6) {
-            System.out.println("******");
-        } else {
-            System.out.println("Incorrect insert");
-        }
+        String message = switch (number) {
+            case 1 -> "*";
+            case 2 -> "**";
+            case 3 -> "***";
+            case 4 -> "****";
+            case 5 -> "*****";
+            case 6 -> "*******";
+            default -> "invalid number ";
+        };
+        System.out.println("The number stars is " + message);
     }
 }
-*/
