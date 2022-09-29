@@ -9,6 +9,7 @@ public class EmployeeTest {
         for(Employee e: staff){
             e.raiseSallary(5);
         }
+
         for (Employee e: staff){
             System.out.println("Employee name is " + e.getEmployeeName() + " Employee salery is " + e.getEmployeeSalary());
         }
