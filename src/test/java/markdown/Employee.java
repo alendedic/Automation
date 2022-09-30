@@ -5,9 +5,7 @@ public class Employee {
     private int employeeSalary;
 
     // Constructors
-    public Employee() {
-    }
-    ;
+    public Employee() {};
 
     public Employee(String name, int salary) {
         employeeName = name;
