@@ -2,7 +2,7 @@ package homework2;
 
 public class Student {
     private String name;
-    private   int age;
+    private int age;
     private int semesterNo;
     private double gps;
 
@@ -12,6 +12,9 @@ public class Student {
         this.semesterNo = semesterNo;
         this.gps = gps;
     }
+
+    public Student() {}
+
     public String getName() {
         return name;
     }
@@ -43,5 +46,4 @@ public class Student {
     public void setGps(double gps) {
         this.gps = gps;
     }
-    public Student() {}
 }
